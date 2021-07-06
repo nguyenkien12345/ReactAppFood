@@ -24,6 +24,7 @@ const App = () => {
       {
         return setAlert("No Food With Such Name");
       }
+      // Tìm thấy món ăn
       setRecipes(result.data.hits);
       setValue("");
     }
