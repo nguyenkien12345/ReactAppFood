@@ -48,7 +48,7 @@ const App = () => {
         <input type="submit" value="Search"/>
       </form>
       <div className="recipes">
-        { recipes?.length > 0 ? 
+        { recipes.length > 0 ? 
         (recipes.map((recipe,index) => 
           <Recipe key={index} recipe={recipe}/>
         )) :
